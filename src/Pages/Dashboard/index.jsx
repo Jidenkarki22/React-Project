@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Navbar from '../../components/Partials/Navbar'
+import PopularMovies from '../PopularMovies'
 
 const Dashboard = () => {
+
   return (
-    <div>Dashboard</div>
+    <div>
+      <Navbar/>
+      <PopularMovies />
+    </div>
   )
 }
 

@@ -1,0 +1,81 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+}
+
+.login-form h5 {
+    font-size: 1.6rem;
+}
+
+.loginForm-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 70%;
+    font-size: 0.9rem;
+}
+
+.popularMoviesList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.movieDetailContainer{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 60vh;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
+.bg-text > h1 {
+    font-size: 1.4rem;
+}
+
+.bg-text > p {
+    font-size: 0.78rem;
+    text-align: center;
+}
+
+.movieDetailFavourite > h6 {
+    text-align: center;
+}
+
+.favoriteImage{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    max-width: 100%;
+    object-fit: fill;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f1f1f1;
+}
